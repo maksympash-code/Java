@@ -14,5 +14,6 @@ public class A_01_05 {
 
         double h = 2.0 / ((1.0 / num1) + (1.0 / num2));
         System.out.printf("H = %.2f%n", h);
+        in.close();
     }
 }

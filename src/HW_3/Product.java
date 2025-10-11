@@ -24,8 +24,7 @@ public class Product implements Comparable<Product>{
 
     @Override
     public String toString(){
-        java.lang.String format = String.format("Product(%s: %.2f, %d years, %d)", name, price, shelfLife, quantity);
-        return format;
+        return String.format("Product(%s: %.2f, %d years, %d)", name, price, shelfLife, quantity);
     }
 
     @Override

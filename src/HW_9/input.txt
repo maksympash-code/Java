@@ -1,0 +1,10 @@
+First line of text
+Second line for processing
+Third line goes here
+Concurrency in Java is fun
+Streams and threads in action
+Multithreading example line 6
+Another sample line 7
+Line number eight
+Almost the last line
+Final line of the input file

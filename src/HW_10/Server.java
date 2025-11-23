@@ -68,7 +68,6 @@ public class Server {
         private String evaluateExpression(String expr) {
             String trimmed = expr.trim();
 
-            // шаблон: число оператор число, дозволяємо пробіли й знаки +/-
             Pattern pattern = Pattern.compile(
                     "^\\s*([+-]?\\d+(?:\\.\\d+)?)\\s*([+\\-*/])\\s*([+-]?\\d+(?:\\.\\d+)?)\\s*$");
             Matcher matcher = pattern.matcher(trimmed);

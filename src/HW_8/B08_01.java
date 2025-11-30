@@ -3,6 +3,7 @@ package HW_8;
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
+
 public class B08_01<T> {
     private final LinkedList<T> stack = new LinkedList<>();
 

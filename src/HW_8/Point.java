@@ -1,5 +1,6 @@
 package HW_8;
 
+
 public class Point {
     private final double x;
     private final double y;

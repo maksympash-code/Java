@@ -2,6 +2,7 @@ package HW_8;
 
 import java.util.*;
 
+
 public class B08_03<T> {
 
     private final Map<T, Set<T>> adj = new HashMap<>();
